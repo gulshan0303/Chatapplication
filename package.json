@@ -1,0 +1,19 @@
+{
+  "name": "Chat_application",
+  "homepage": "https://gulshan0303.github.io/Chatapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
